@@ -59,7 +59,7 @@ img{max-width:100%}
 .tl{text-align:left !important}
 .tc{text-align:center}
 .tr{text-align:right}
-.pf{position: fixed}
+.pf{position:fixed}
 .pr,header,.dot_item li{position:relative}
 .pa{position:absolute}
 .t0{top:0}
@@ -80,7 +80,7 @@ img{max-width:100%}
 .ml30,.mlr30{margin-left:.4rem}
 .mr{margin-right:.266667rem}
 .mr30,.mlr30{margin-right:.4rem}
-.mr40{margin-right: .533333rem}
+.mr40{margin-right:.533333rem}
 
 .pd{padding:.266667rem}
 .pt,.ptb{padding-top:.266667rem}
@@ -143,26 +143,26 @@ header .icon.r0{padding-right:.4rem;text-align:right}
 .user_con .body{line-height:.64rem;text-align:justify}
 .user_con .body p:not(:last-child),.user_con .body .multiple_txt:not(:last-child){margin-bottom:.213333rem}
 .user_con .body li:not(:last-child){padding-bottom:.533333rem}
-.user_con .body em{min-width:2.4rem;margin-right:.266667rem}
-.user_con .body .multiple_txt p{margin: 0}
+.user_con .body em{min-width:2.4rem;margin-right:.266667rem;-webkit-align-self:auto;align-self:auto}
+.user_con .body .multiple_txt p{margin:0}
 
 .dot_item li{margin-left:.6rem;border-left:1px solid #dbe7f5;padding:0 .266667rem .346667rem .293333rem}
 .icon_dot{position:absolute;top:-.24rem;left:0;margin-left:-.24rem;width:.466667rem;height:.466667rem}
 
-header.pf{top:0;left: 0;width: 100%;z-index: 99999}
-.gradientbg{background: #239fff;
-    background: -moz-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
-    background: -webkit-gradient(left top,right top,color-stop(0,#48d6ff),color-stop(50%,#239fff),color-stop(100%,#5877ff));
-    background: -webkit-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
-    background: -o-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
-    background: -ms-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
-    background: linear-gradient(to right,#48d6ff 0,#239fff 50%,#5877ff 100%)
+header.pf{top:0;left:0;width:100%;z-index:99999}
+.gradientbg{background:#239fff;
+    background:-moz-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
+    background:-webkit-gradient(left top,right top,color-stop(0,#48d6ff),color-stop(50%,#239fff),color-stop(100%,#5877ff));
+    background:-webkit-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
+    background:-o-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
+    background:-ms-linear-gradient(left,#48d6ff 0,#239fff 50%,#5877ff 100%);
+    background:linear-gradient(to right,#48d6ff 0,#239fff 50%,#5877ff 100%)
 }
 
 .news_head{padding:.586667rem .266667rem .2rem}
-.news_body{padding-bottom:.666667rem;line-height: .533333rem;text-align: justify}
+.news_body{padding-bottom:.666667rem;line-height:.533333rem;text-align:justify}
 .news_body img{margin:.346667rem 0}
 
 @media (min-width:540px){
-	header.pf{left: 50%;margin-left: -5rem;width: 540px}
+	header.pf{left:50%;margin-left:-5rem;width:540px}
 }
